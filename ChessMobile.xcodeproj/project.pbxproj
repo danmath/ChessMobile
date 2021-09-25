@@ -7,12 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AF4B69C626FE4ED30060D255 /* SelectedShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4B69C526FE4ED30060D255 /* SelectedShape.swift */; };
+		AF5EF39226F79E6D00DEE24C /* Piece.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF5EF39126F79E6D00DEE24C /* Piece.swift */; };
+		AF5EF39426F8F42B00DEE24C /* BoardCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF5EF39326F8F42B00DEE24C /* BoardCache.swift */; };
+		AF5EF39626F8F90400DEE24C /* BoardCacheItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF5EF39526F8F90400DEE24C /* BoardCacheItem.swift */; };
 		AF6EC5EF26F28D6C00604C69 /* ChessMobileApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF6EC5EE26F28D6C00604C69 /* ChessMobileApp.swift */; };
 		AF6EC5F126F28D6C00604C69 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF6EC5F026F28D6C00604C69 /* ContentView.swift */; };
 		AF6EC5F326F28D6F00604C69 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF6EC5F226F28D6F00604C69 /* Assets.xcassets */; };
 		AF6EC5F626F28D6F00604C69 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF6EC5F526F28D6F00604C69 /* Preview Assets.xcassets */; };
 		AF6EC60126F28D6F00604C69 /* ChessMobileTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF6EC60026F28D6F00604C69 /* ChessMobileTests.swift */; };
 		AF6EC60C26F28D6F00604C69 /* ChessMobileUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF6EC60B26F28D6F00604C69 /* ChessMobileUITests.swift */; };
+		AF6EC62026F28DC800604C69 /* BoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF6EC61F26F28DC800604C69 /* BoardView.swift */; };
+		AF6EC62226F28DD100604C69 /* Board.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF6EC62126F28DD100604C69 /* Board.swift */; };
+		AF6EC62426F296E400604C69 /* CheckerboardShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF6EC62326F296E400604C69 /* CheckerboardShape.swift */; };
+		AF6EC62626F2C0FF00604C69 /* Move.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF6EC62526F2C0FF00604C69 /* Move.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +41,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AF4B69C526FE4ED30060D255 /* SelectedShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectedShape.swift; sourceTree = "<group>"; };
+		AF5EF39126F79E6D00DEE24C /* Piece.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Piece.swift; sourceTree = "<group>"; };
+		AF5EF39326F8F42B00DEE24C /* BoardCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardCache.swift; sourceTree = "<group>"; };
+		AF5EF39526F8F90400DEE24C /* BoardCacheItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardCacheItem.swift; sourceTree = "<group>"; };
 		AF6EC5EB26F28D6C00604C69 /* ChessMobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChessMobile.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF6EC5EE26F28D6C00604C69 /* ChessMobileApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChessMobileApp.swift; sourceTree = "<group>"; };
 		AF6EC5F026F28D6C00604C69 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -45,6 +57,10 @@
 		AF6EC60726F28D6F00604C69 /* ChessMobileUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChessMobileUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF6EC60B26F28D6F00604C69 /* ChessMobileUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChessMobileUITests.swift; sourceTree = "<group>"; };
 		AF6EC60D26F28D6F00604C69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF6EC61F26F28DC800604C69 /* BoardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardView.swift; sourceTree = "<group>"; };
+		AF6EC62126F28DD100604C69 /* Board.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Board.swift; sourceTree = "<group>"; };
+		AF6EC62326F296E400604C69 /* CheckerboardShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckerboardShape.swift; sourceTree = "<group>"; };
+		AF6EC62526F2C0FF00604C69 /* Move.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Move.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,9 +112,10 @@
 			isa = PBXGroup;
 			children = (
 				AF6EC5EE26F28D6C00604C69 /* ChessMobileApp.swift */,
-				AF6EC5F026F28D6C00604C69 /* ContentView.swift */,
+				AF6EC61926F28D7800604C69 /* View */,
 				AF6EC5F226F28D6F00604C69 /* Assets.xcassets */,
 				AF6EC5F726F28D6F00604C69 /* Info.plist */,
+				AF6EC61A26F28D7D00604C69 /* Model */,
 				AF6EC5F426F28D6F00604C69 /* Preview Content */,
 			);
 			path = ChessMobile;
@@ -128,6 +145,29 @@
 				AF6EC60D26F28D6F00604C69 /* Info.plist */,
 			);
 			path = ChessMobileUITests;
+			sourceTree = "<group>";
+		};
+		AF6EC61926F28D7800604C69 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AF6EC5F026F28D6C00604C69 /* ContentView.swift */,
+				AF6EC61F26F28DC800604C69 /* BoardView.swift */,
+				AF6EC62326F296E400604C69 /* CheckerboardShape.swift */,
+				AF4B69C526FE4ED30060D255 /* SelectedShape.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AF6EC61A26F28D7D00604C69 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AF6EC62126F28DD100604C69 /* Board.swift */,
+				AF6EC62526F2C0FF00604C69 /* Move.swift */,
+				AF5EF39126F79E6D00DEE24C /* Piece.swift */,
+				AF5EF39326F8F42B00DEE24C /* BoardCache.swift */,
+				AF5EF39526F8F90400DEE24C /* BoardCacheItem.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,6 +299,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF4B69C626FE4ED30060D255 /* SelectedShape.swift in Sources */,
+				AF6EC62626F2C0FF00604C69 /* Move.swift in Sources */,
+				AF5EF39626F8F90400DEE24C /* BoardCacheItem.swift in Sources */,
+				AF6EC62026F28DC800604C69 /* BoardView.swift in Sources */,
+				AF6EC62426F296E400604C69 /* CheckerboardShape.swift in Sources */,
+				AF5EF39226F79E6D00DEE24C /* Piece.swift in Sources */,
+				AF5EF39426F8F42B00DEE24C /* BoardCache.swift in Sources */,
+				AF6EC62226F28DD100604C69 /* Board.swift in Sources */,
 				AF6EC5F126F28D6C00604C69 /* ContentView.swift in Sources */,
 				AF6EC5EF26F28D6C00604C69 /* ChessMobileApp.swift in Sources */,
 			);
